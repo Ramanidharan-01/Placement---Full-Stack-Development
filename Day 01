@@ -1,0 +1,44 @@
+JAVA  -  A small introduction
+	• Java is a High level programming language.
+	• A Programming language is an artificial language used to express computations and/or calculations that can be run on a system.
+	• It is used for developing platforms and applications.
+	• It is platform independent, provided there is a JRE installed in that system
+	• Kubernetes is a managing platform to manage Docker containers
+	• Docker removes all the dependencies of an application and downscale it in size by doing this and provides the image of the application
+	• .java is a text file which is compiled and converted to a .class file which is understood by the machine
+	• If an application backed by java is not running then the system does not have JRE
+	• After installing java, we have to refer two environment variables from anywhere inside the system
+	• The variables are java_home and path ( Note: Path variable is already available in the system) and should need not be newly created and should not be delete it or change it just add the path to it )
+	
+Platforms for Java
+	• Java SE (Standard Edition)  - Basic and standard
+	• Java EE (Enterprise Edition) - Paid and top level
+	• Java ME (Micro Edition) - For Mobile applications 
+	• Java FX (Effects) -  GUI and UI rich applications
+
+Basic Java Program
+	• A Java program should have a class or an interface
+	• Main class name and the name of the file should be same if static method is present
+	• The starting letter of the class or interface should be in upper case
+	• The starting point of our java program is public static void main(String[] args) - Main method
+	• To print a statement to the display or some text on  console, we use System.out.println()
+	• javap is used to display the content of a library class or any program and is the dis-assembler tool
+	• Under public class, we have methods. The main method got one arguments String[] args which is called as command line argument
+	• If static keyword is not written the java method can be compiled without keeping the same file name as class name
+	• String and System are the two pre-defined classes present in the java
+	• System.out.println() : out is a static member data of type java.io.PrintStream in System class - so we can refer it as System.out
+
+Points about a java program
+	• Case sensitivity
+	• Naming convention: The first letter of each word of the class name should be Upper case
+	• All method names and variable names should start with lower case and there after each word should start with upper case
+	
+Java Identifiers
+	• Names used in java program are called identifiers
+	
+Identifier Rules
+	• An identifier can have alphanumeric characters
+	• It should begin with a letter, underscore or $
+	• A keyword should not be used as identifier
+	• They are case sensitive
+	• No space is allowed between the characters of an identifier
